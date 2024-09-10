@@ -1,0 +1,18 @@
+.next-row{
+    display: flex;
+    position: absolute;
+    top: 200%;
+    
+}
+.single-window{
+    background-color: bisque;
+    position: absolute;
+    margin-top: 95%;
+    width: 99%;
+    display: flex;
+    justify-content: space-around;
+}
+.single-window img{
+    padding: 0 10px;
+    width: 200px;
+}

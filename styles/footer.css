@@ -1,0 +1,119 @@
+footer{
+    /* position: absolute; */
+    /* bottom: 1005; */
+    margin: 0;
+    padding:0;
+    margin-bottom: 30px;
+}
+
+#back-to-top{
+    display: grid;
+    height: 40px;
+    width: 100%;
+    background-color: #324257;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#back-to-top span{
+    color: black;
+}
+
+#back-to-top:hover{
+    background-color: #4475b1;
+}
+
+/* section 1 */
+#section1{
+    display: flex;
+    background-color: #232F3E;
+    color: white;
+    justify-content: center;
+    padding :50px 2% 
+       
+}
+#section1 h3{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+#section1 span{
+    font-weight: 300;
+    font-size: .9rem;
+}
+
+.section1-child1{
+    
+   
+    width: 219px;
+    
+    /* background-color: blueviolet; */
+}
+.blankdiv{
+    width: 100px;
+
+    /* background-color: rgb(211, 162, 98); */
+}
+
+/* section2  */
+#section2{
+    background-color: #837a7a;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+
+}
+#section2-logo{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 100px;
+   
+}
+#section2-buttons button{
+    text-align: center;
+    margin: 0px 5px;
+    height: 30px;
+    background-color: #978b8b;
+    border: solid 1px white;
+    padding: 4px;
+}
+
+/* section3 */
+#section3{
+    background-color: #131a22;
+    color: aliceblue;
+    padding: 50px 20%;
+    flex-wrap: wrap;
+    /* max-width: 950px; */
+    display: flex;
+    font-size: small;
+    font-weight: 300;
+    
+}
+.section3-child{
+    max-width: 67px;
+    min-height: 67px;
+    padding: 15px 20px;
+}
+.blankdiv30{
+    max-width: 30px;
+    min-width: 30px;
+
+}
+
+/* section4 */
+
+#section4{
+display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #131a22;
+    color: aliceblue;
+    font-size: small;
+    font-weight: 300;
+    
+}
+#section4-chile1{
+    display: flex;
+    justify-content: center;
+    /* width: 1500px; */
+}
