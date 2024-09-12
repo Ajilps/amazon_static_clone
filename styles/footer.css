@@ -1,9 +1,9 @@
 footer{
-    /* position: absolute; */
-    /* bottom: 1005; */
+   
     margin: 0;
     padding:0;
-    margin-bottom: 30px;
+    padding-bottom: 10px;
+    background-color: #131a22;
 }
 
 #back-to-top{
@@ -54,11 +54,12 @@ footer{
     /* background-color: rgb(211, 162, 98); */
 }
 
-/* section2  */
+/* section2 language and logo */
 #section2{
     background-color: #837a7a;
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 30px;
 
 }
@@ -77,14 +78,15 @@ footer{
     padding: 4px;
 }
 
-/* section3 */
+/* section3  links*/
 #section3{
+    display: flex;
     background-color: #131a22;
     color: aliceblue;
     padding: 50px 20%;
     flex-wrap: wrap;
     /* max-width: 950px; */
-    display: flex;
+    justify-content: center;
     font-size: small;
     font-weight: 300;
     
@@ -104,16 +106,11 @@ footer{
 
 #section4{
 display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+flex-direction: column;
+align-items: center;
     background-color: #131a22;
     color: aliceblue;
     font-size: small;
     font-weight: 300;
     
-}
-#section4-chile1{
-    display: flex;
-    justify-content: center;
-    /* width: 1500px; */
 }

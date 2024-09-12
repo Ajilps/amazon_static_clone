@@ -1,11 +1,74 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Roboto,Arial;
+    border: none;
+    font-family: Roboto, Arial;
     
+   
 }
-body{
-margin: 0%;
-padding: 0%;
+:root{
+    --head-color: #131921; /* You can replace this with any color value */
 
 }
+
+
+.border{
+    border: solid transparent 1px;
+}
+.border:hover{
+    border: solid white 1px;
+    cursor: pointer;
+
+}
+
+
+.dropdown {
+     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -25px; 
+    height: 30px; 
+   
+     text-align: center; 
+    
+} 
+
+.dropdown img {
+    padding: 3px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    border-radius: 5px;
+    top: 25px;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: rgb(189, 42, 42);
+    background-color: #f1f1f1;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+

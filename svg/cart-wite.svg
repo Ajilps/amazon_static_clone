@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <g class="layer">
+  <title>Layer 1</title>
+  <g id="svg_15">
+   <circle cx="7.93" cy="20.26" fill="#ffffff" id="svg_6" r="2.22" stroke="#ffffff" transform="matrix(1 0 0 1 0 0)"/>
+   <circle cx="18.6" cy="20.26" fill="#ffffff" id="svg_7" r="2.22" stroke="#ffffff"/>
+   <line fill="#ffffff" id="svg_11" stroke="#ffffff" stroke-width="2" x1="0.7" x2="5.03" y1="1.68" y2="3.18"/>
+   <line fill="#ffffff" id="svg_12" stroke="#ffffff" stroke-width="2" transform="matrix(1 0 0 1 0 0)" x1="4.64" x2="7.1" y1="1.86" y2="16.08"/>
+   <line fill="#ffffff" id="svg_13" stroke="#ffffff" stroke-width="2" transform="matrix(1 0 0 1 0 0)" x1="6.55" x2="19.9" y1="15.65" y2="15.58"/>
+   <line fill="#ffffff" id="svg_14" stroke="#ffffff" stroke-width="2" transform="matrix(1 0 0 1 0 0)" x1="23.06" x2="19.38" y1="4.86" y2="15.98"/>
+  </g>
+ </g>
+</svg>
